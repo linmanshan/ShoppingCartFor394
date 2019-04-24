@@ -1,0 +1,35 @@
+Have done:
+
+1.Convert it into readable format(csv) with SAS
+2.Understand the meaning of those variables
+3.Get access to the WRDS database
+4.Able to acquire DataSources (IBES/COMPSTAT quarterly/Zack/RavenPack)
+
+
+Result:
+Recent 10years Announcement time and date for current dow jones 30 stocks(For IBES)
+
+
+IBES:Good
+Compstat: less data
+Zack: only annually, quarterly not found
+RavenPack: Without access
+
+
+
+Questions:
+
+Current DowJones 30stocks?
+What attributes? Only announce date and announce time? EPS? 
+Which year? From when to when?
+Need any analysis?
+
+
+
+
+
+
+
+
+
+
