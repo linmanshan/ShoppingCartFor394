@@ -17,7 +17,7 @@ class ShoppingCart extends Component {
     return (
       <ButtonToolbar>
         <Dropdown>
-          <Dropdown.Toggle>Pow! Zoom!</Dropdown.Toggle>
+          <Dropdown.Toggle style={{ width: 150 }}>Cart</Dropdown.Toggle>
           <Dropdown.Menu>
             {names.map(product => {
               return (
