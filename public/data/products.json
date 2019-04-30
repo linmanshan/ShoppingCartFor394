@@ -9,7 +9,8 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true,
-    "pic":"./data/products/876661122392077_1.jpg"
+    "pic":"./data/products/876661122392077_1.jpg",
+    "size":"XS S M"
   },
   "51498472915966370": {
     "sku": 51498472915966370,
@@ -19,7 +20,8 @@
     "price": 29.45,
     "currencyId": "USD",
     "currencyFormat": "$",
-    "isFreeShipping": true
+    "isFreeShipping": true,
+    "size":"S M ML"
   },
   "10686354557628304": {
     "sku": 10686354557628304,
@@ -30,6 +32,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true
+    ,"size":"XS S L"
   },
   "11033926921508488": {
     "sku": 11033926921508488,
@@ -40,6 +43,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true
+    ,"size":"XS S M"
   },
   "39876704341265610": {
     "sku": 39876704341265610,
@@ -50,6 +54,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true
+    ,"size":"S M XL"
   },
   "10412368723880252": {
     "sku": 10412368723880252,
@@ -60,6 +65,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true
+    ,"size":"XS L ML"
   },
   "8552515751438644": {
     "sku": 8552515751438644,
@@ -70,6 +76,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true
+    ,"size":"XL S XXL"
   },
   "18644119330491310": {
     "sku": 18644119330491310,
@@ -80,6 +87,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true
+    ,"size":"S XL L"
   },
   "11854078013954528": {
     "sku": 11854078013954528,
@@ -90,6 +98,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true
+    ,"size":"ML S M"
   },
   "876661122392077": {
     "sku": 876661122392077,
@@ -100,6 +109,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true
+    ,"size":"ML M"
   },
   "9197907543445676": {
     "sku": 9197907543445676,
@@ -110,6 +120,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": false
+    ,"size":"S M"
   },
   "10547961582846888": {
     "sku": 10547961582846888,
@@ -120,6 +131,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": false
+    ,"size":"XS S M"
   },
   "6090484789343891": {
     "sku": 6090484789343891,
@@ -130,6 +142,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true
+    ,"size":"S M L"
   },
   "18532669286405344": {
     "sku": 18532669286405344,
@@ -140,6 +153,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true
+    ,"size":"L M"
   },
   "5619496040738316": {
     "sku": 5619496040738316,
@@ -150,6 +164,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": false
+    ,"size":"XS S M XL"
   },
   "11600983276356164": {
     "sku": 11600983276356164,
@@ -160,6 +175,7 @@
     "currencyId": "USD",
     "currencyFormat": "$",
     "isFreeShipping": true
+    ,"size":"L"
   },
   "27250082398145996": {
     "sku": 27250082398145996,
@@ -169,7 +185,7 @@
     "price": 49,
     "currencyId": "USD",
     "currencyFormat": "$",
-    "isFreeShipping": true
+    "isFreeShipping": true ,"size":"S M"
   }
 }
 }
