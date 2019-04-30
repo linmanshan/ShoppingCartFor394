@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Button, CardColumns, Card } from "react-bootstrap";
 import ShoppingCart from "./Components/ShoppingCart";
-import Filter from "./Component/Filter";
+import Filter from "./Components/Filter";
 // const App = ({products}) => {
 //   const skus = Object.keys(products);
 //   const items = skus.map(sku => <li>{products[sku].title}</li>);
@@ -22,29 +22,26 @@ class App extends Component {
   applyFilter(showProducts) {
     this.setState({ showProducts: showProducts });
   }
-  handleUserClick(id) {
+  handleUserClick(item) {
     //[price,quantity,pic]
     let shoppedItem = this.state.shoppedItem;
     for (var key in shoppedItem) {
-      if (this.props.products[id].title === key) {
+      if (item.title === key) {
         shoppedItem[key][1] += 1;
         this.setState({ shoppedItem: shoppedItem });
         return;
       }
     }
-    shoppedItem[this.props.products[id].title] = [
-      this.props.products[id].price,
-      1
-    ];
+    shoppedItem[item.title] = [item.price, 1];
     this.setState({ shoppedItem: shoppedItem });
     console.log(this.state.shoppedItem);
   }
   render() {
     const skus = Object.keys(this.state.showProducts);
     const cards = skus.map(sku => (
-      <Card style={{ height: "20%" }}>
+      <Card style={{ height: "20%", border: "none" }}>
         <Card.Img
-          style={{ width: "auto", height: 300 }}
+          style={{ height: 300, border: "none", width: 300 }}
           variant="top"
           src={this.state.showProducts[sku].pic}
         />
@@ -58,7 +55,7 @@ class App extends Component {
           style={{ width: 300 }}
           size="xlg"
           onClick={() => {
-            this.handleUserClick(sku);
+            this.handleUserClick(this.state.showProducts[sku]);
           }}
         >
           Add to Cart
@@ -67,8 +64,8 @@ class App extends Component {
     ));
     return (
       <div>
-        <ShoppingCart shoppedItem={this.state.shoppedItem} />
         <Filter products={this.props.products} applyFilter={this.applyFilter} />
+        <ShoppingCart shoppedItem={this.state.shoppedItem} />
         <CardColumns
           style={{ paddingLeft: 230, height: "80%", columnCount: 4 }}
         >
