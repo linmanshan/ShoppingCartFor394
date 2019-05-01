@@ -11,6 +11,16 @@ class ShoppingCart extends Component {
     super(props);
     this.state = {};
   }
+  countTotal() {
+    var total = 0;
+    for (var i in this.props.shoppedItem) {
+      total +=
+        parseFloat(this.props.shoppedItem[i][0]) *
+        parseFloat(this.props.shoppedItem[i][1]);
+    }
+    console.log(total);
+    return total;
+  }
   render() {
     const names = Object.keys(this.props.shoppedItem);
     return (
@@ -31,6 +41,9 @@ class ShoppingCart extends Component {
                   </Dropdown.Item>
                 );
               })}
+              <Dropdown.Item style={{ fontSize: 25 }}>
+                Total:{this.countTotal()}
+              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </ButtonToolbar>
