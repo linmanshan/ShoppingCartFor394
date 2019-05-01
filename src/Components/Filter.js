@@ -9,18 +9,23 @@ class Filter extends Component {
     const origin = new Array();
     const skus = Object.keys(this.props.products);
 
-    skus.map(sku => {
-      console.log(this.props.products[sku]);
-      origin.push(this.props.products[sku]);
-    });
-    console.log(l);
-    for (var i = 0; i < origin.length; i++) {
-      var sizes = origin[i].size.split(" ");
+    // skus.map(sku => {
+    //   //origin.push(this.props.products[sku]);
+    //   origin[sku] = this.props.products[sku];
+    // });
+    console.log(skus);
+    for (var i = 0; i < skus.length; i++) {
+      origin[skus[i]] = this.props.products[skus[i]];
+    }
+    console.log(origin);
+    for (var j = 0; j < skus.length; j++) {
+      var sizes = origin[skus[j]].size.split(" ");
       console.log(sizes);
       if (sizes.includes(option)) {
-        l.push(origin[i]);
+        l[skus[j]] = origin[skus[j]];
       }
     }
+    console.log(l);
     this.props.applyFilter(l);
   }
   render() {
