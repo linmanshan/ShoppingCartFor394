@@ -13,7 +13,6 @@ class ShoppingCart extends Component {
   }
   render() {
     const names = Object.keys(this.props.shoppedItem);
-    console.log(names);
     return (
       <ButtonToolbar>
         <Dropdown>
@@ -25,6 +24,9 @@ class ShoppingCart extends Component {
                   <div>Name:{product}</div>
                   <div>Price:{this.props.shoppedItem[product][0]}</div>
                   <div>Quantity:{this.props.shoppedItem[product][1]}</div>
+                  <button onClick={() => this.props.removeItem(product)}>
+                    x
+                  </button>
                 </Dropdown.Item>
               );
             })}
