@@ -1,0 +1,207 @@
+{"products": 
+ {
+  "12064273040195392": {
+    "sku": 12064273040195392,
+    "title": "Cat Tee Black T-Shirt",
+    "description": "4 MSL",
+    "style": "Black with custom print",
+    "price": 10.9,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true,
+    "pic":"./data/products/6.jpg",
+    "size":"XS S M"
+  },
+  "51498472915966370": {
+    "pic":"./data/products/4.jpg",
+    "sku": 51498472915966370,
+    "title": "Dark Thug Blue-Navy T-Shirt",
+    "description": "",
+    "style": "Front print and paisley print",
+    "price": 29.45,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true,
+    "size":"S M ML"
+  },
+  "10686354557628304": {
+    "pic":"./data/products/36.jpg",
+    "sku": 10686354557628304,
+    "title": "Sphynx Tie Dye Wine T-Shirt",
+    "description": "GPX Poly 1",
+    "style": "Front tie dye print",
+    "price": 9,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true
+    ,"size":"XS S L"
+  },
+  "11033926921508488": {
+    "pic":"./data/products/8.jpg",
+    "sku": 11033926921508488,
+    "title": "Skuul",
+    "description": "Training 2014",
+    "style": "Black T-Shirt with front print",
+    "price": 14,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true
+    ,"size":"XS S M"
+  },
+  "39876704341265610": {
+    "pic":"./data/products/10.jpg",
+    "sku": 39876704341265610,
+    "title": "Wine Skul T-Shirt",
+    "description": "",
+    "style": "Wine",
+    "price": 13.25,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true
+    ,"size":"S M XL"
+  },
+  "10412368723880252": {
+    "pic":"./data/products/12.jpg",
+    "sku": 10412368723880252,
+    "title": "Short Sleeve T-Shirt",
+    "description": "",
+    "style": "Grey",
+    "price": 75,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true
+    ,"size":"XS L ML"
+  },
+  "8552515751438644": {
+    "pic":"./data/products/14.jpg",
+    "sku": 8552515751438644,
+    "title": "Cat Tee Black T-Shirt",
+    "description": "14/15 unnumbered",
+    "style": "White with black stripes",
+    "price": 10.9,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true
+    ,"size":"XL S XXL"
+  },
+  "18644119330491310": {
+    "pic":"./data/products/16.jpg",
+    "sku": 18644119330491310,
+    "title": "Sphynx Tie Dye Grey T-Shirt",
+    "description": "14/15 unnumbered",
+    "style": "Black with white stripes",
+    "price": 10.9,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true
+    ,"size":"S XL L"
+  },
+  "11854078013954528": {
+    "pic":"./data/products/18.jpg",
+    "sku": 11854078013954528,
+    "title": "Danger Knife Grey",
+    "description": "14/15 unnumbered",
+    "style": "White with black stripes",
+    "price": 14.9,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true
+    ,"size":"ML S M"
+  },
+  "876661122392077": {
+    "pic":"./data/products/20.jpg",
+    "sku": 876661122392077,
+    "title": "White DGK Script Tee",
+    "description": "2014 unnumbered",
+    "style": "Black with white stripes",
+    "price": 14.9,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true
+    ,"size":"ML M"
+  },
+  "9197907543445676": {
+    "pic":"./data/products/22.jpg",
+    "sku": 9197907543445676,
+    "title": "Born On The Streets",
+    "description": "14/15 unnumbered - Player",
+    "style": "White with black stripes",
+    "price": 25.9,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": false
+    ,"size":"S M"
+  },
+  "10547961582846888": {
+    "pic":"./data/products/24.jpg",
+    "sku": 10547961582846888,
+    "title": "Tso 3D Short Sleeve T-Shirt A",
+    "description": "14/15 + 1st World T-Shirt",
+    "style": "Black",
+    "price": 10.9,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": false
+    ,"size":"XS S M"
+  },
+  "6090484789343891": {
+    "pic":"./data/products/26.jpg",
+    "sku": 6090484789343891,
+    "title": "Man Tie Dye Cinza Grey T-Shirt",
+    "description": "Goalkeeper 13/14",
+    "style": "White",
+    "price": 49.9,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true
+    ,"size":"S M L"
+  },
+  "18532669286405344": {
+    "pic":"./data/products/28.jpg",
+    "sku": 18532669286405344,
+    "title": "Crazy Monkey Black T-Shirt",
+    "description": "1977 Child",
+    "style": "Black with white stripes",
+    "price": 22.5,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true
+    ,"size":"L M"
+  },
+  "5619496040738316": {
+    "pic":"./data/products/30.jpg",
+    "sku": 5619496040738316,
+    "title": "Release 3D Black T-Shirt",
+    "description": "",
+    "style": "Dark blue",
+    "price": 18.7,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": false
+    ,"size":"XS S M XL"
+  },
+  "11600983276356164": {
+    "pic":"./data/products/32.jpg",
+    "sku": 11600983276356164,
+    "title": "Crazy Monkey Grey",
+    "description": "",
+    "style": "",
+    "price": 134.9,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true
+    ,"size":"L"
+  },
+  "27250082398145996": {
+    "pic":"./data/products/34.jpg",
+    "sku": 27250082398145996,
+    "title": "On The Streets Black T-Shirt",
+    "description": "",
+    "style": "",
+    "price": 49,
+    "currencyId": "USD",
+    "currencyFormat": "$",
+    "isFreeShipping": true ,"size":"S M"
+  }
+}
+}

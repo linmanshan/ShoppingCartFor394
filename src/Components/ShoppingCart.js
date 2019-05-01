@@ -14,25 +14,27 @@ class ShoppingCart extends Component {
   render() {
     const names = Object.keys(this.props.shoppedItem);
     return (
-      <ButtonToolbar>
-        <Dropdown>
-          <Dropdown.Toggle style={{ width: 150 }}>Cart</Dropdown.Toggle>
-          <Dropdown.Menu>
-            {names.map(product => {
-              return (
-                <Dropdown.Item key={product}>
-                  <div>Name:{product}</div>
-                  <div>Price:{this.props.shoppedItem[product][0]}</div>
-                  <div>Quantity:{this.props.shoppedItem[product][1]}</div>
-                  <button onClick={() => this.props.removeItem(product)}>
-                    x
-                  </button>
-                </Dropdown.Item>
-              );
-            })}
-          </Dropdown.Menu>
-        </Dropdown>
-      </ButtonToolbar>
+      <div style={{ display: "inline-block" }}>
+        <ButtonToolbar>
+          <Dropdown>
+            <Dropdown.Toggle style={{ width: 150 }}>Cart</Dropdown.Toggle>
+            <Dropdown.Menu>
+              {names.map(product => {
+                return (
+                  <Dropdown.Item key={product}>
+                    <div>Name:{product}</div>
+                    <div>Price:{this.props.shoppedItem[product][0]}</div>
+                    <div>Quantity:{this.props.shoppedItem[product][1]}</div>
+                    <button onClick={() => this.props.removeItem(product)}>
+                      x
+                    </button>
+                  </Dropdown.Item>
+                );
+              })}
+            </Dropdown.Menu>
+          </Dropdown>
+        </ButtonToolbar>
+      </div>
     );
   }
 }

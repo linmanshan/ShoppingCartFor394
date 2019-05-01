@@ -12,14 +12,16 @@ class Sortby extends Component {
   }
   render() {
     return (
-      <DropdownButton title="Order By">
-        <Dropdown.Item onClick={() => this.props.LowToHigh()}>
-          Lowest to Highest
-        </Dropdown.Item>
-        <Dropdown.Item onClick={() => this.props.HighToLow()}>
-          Highest to Lowest
-        </Dropdown.Item>
-      </DropdownButton>
+      <div style={{ display: "inline-block", "padding-left": "600px" }}>
+        <DropdownButton title="Order By">
+          <Dropdown.Item onClick={() => this.props.LowToHigh()}>
+            Lowest to Highest
+          </Dropdown.Item>
+          <Dropdown.Item onClick={() => this.props.HighToLow()}>
+            Highest to Lowest
+          </Dropdown.Item>
+        </DropdownButton>
+      </div>
     );
   }
 }
