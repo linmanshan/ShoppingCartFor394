@@ -5,28 +5,32 @@ class Filter extends Component {
     super(props);
   }
   handleUserClick(option) {
-    const l = new Array();
-    const origin = new Array();
-    const skus = Object.keys(this.props.products);
+    if (option == "all") {
+      this.props.applyFilter(this.props.products);
+    } else {
+      const l = new Array();
+      const origin = new Array();
+      const skus = Object.keys(this.props.products);
 
-    // skus.map(sku => {
-    //   //origin.push(this.props.products[sku]);
-    //   origin[sku] = this.props.products[sku];
-    // });
-    console.log(skus);
-    for (var i = 0; i < skus.length; i++) {
-      origin[skus[i]] = this.props.products[skus[i]];
-    }
-    console.log(origin);
-    for (var j = 0; j < skus.length; j++) {
-      var sizes = origin[skus[j]].size.split(" ");
-      console.log(sizes);
-      if (sizes.includes(option)) {
-        l[skus[j]] = origin[skus[j]];
+      // skus.map(sku => {
+      //   //origin.push(this.props.products[sku]);
+      //   origin[sku] = this.props.products[sku];
+      // });
+      console.log(skus);
+      for (var i = 0; i < skus.length; i++) {
+        origin[skus[i]] = this.props.products[skus[i]];
       }
+      console.log(origin);
+      for (var j = 0; j < skus.length; j++) {
+        var sizes = origin[skus[j]].size.split(" ");
+        console.log(sizes);
+        if (sizes.includes(option)) {
+          l[skus[j]] = origin[skus[j]];
+        }
+      }
+      console.log(l);
+      this.props.applyFilter(l);
     }
-    console.log(l);
-    this.props.applyFilter(l);
   }
   render() {
     return (
@@ -82,6 +86,13 @@ class Filter extends Component {
             }}
           >
             XXL
+          </button>
+          <button
+            onClick={() => {
+              this.handleUserClick("all");
+            }}
+          >
+            All
           </button>
         </div>
       </div>
