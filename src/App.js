@@ -77,7 +77,7 @@ class App extends Component {
           style={{
             height: "20%",
             border: "none",
-            width: "300px"
+            width: "350px"
           }}
         >
           <Card.Img
@@ -89,9 +89,12 @@ class App extends Component {
             <Card.Title style={{ fontSize: 0.5 }}>
               {this.state.showProducts[sku].title}
             </Card.Title>
-            <Card.Text>{this.state.showProducts[sku].price}</Card.Text>
+            <Card.Text style={{ "padding-left": "80px" }}>
+              {this.state.showProducts[sku].price}$
+            </Card.Text>
           </Card.Body>
           <Button
+            variant="info"
             style={{ width: 250 }}
             size="xlg"
             onClick={() => {
@@ -108,6 +111,9 @@ class App extends Component {
       <div>
         <div style={{ fontSize: 30 }}>Size</div>
         <Filter products={this.props.products} applyFilter={this.applyFilter} />
+        <div style={{ fontSize: 25, color: "red" }}>
+          {Object.keys(this.state.showProducts).length + " "}products found
+        </div>
         <div>
           <ShoppingCart
             shoppedItem={this.state.shoppedItem}
